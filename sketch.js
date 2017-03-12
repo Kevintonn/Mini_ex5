@@ -36,9 +36,9 @@ function draw() {
     
     fill (0);
     textSize(18);
-    text("And death shall have no dominion.", mouseX, mouseY);
-    text("Dead man naked they shall be one", mouseX, mouseY+30);
-    text("With the man in the wind and the west moon;", mouseX, mouseY+60);
+    text("And death shall have no dominion.", window.innerWidth-150, window.innerHeight);
+    text("Dead man naked they shall be one", window.innerWidth-150, window.innerHeight+30);
+    text("With the man in the wind and the west moon;", window.innerWidth-150, window.innerHeight+60);
     text("When their bones are picked clean and the clean bones gone,", mouseX, mouseY+90);
     text("They shall have stars at elbow and foot;", mouseX, mouseY+120);
     text("Though they go mad they shall be sane,", mouseX, mouseY+150);
